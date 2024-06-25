@@ -23,6 +23,7 @@ app.use((req,res,next)=>{
 //         res.send("ACCESS DENIED ...!");
 //     }
 // });
+
 // app.get("/api",(req,res)=>{
 //     res.send("Important Data...!");
 // })
