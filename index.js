@@ -5,6 +5,7 @@ app.use((req,res,next)=>{
     console.log("middleware");
     return next();
 });
+
 // app.use((req,res,next)=>{
 //     req.time = Date.now().toString();
 //     console.log(req.method, req.path, req.hostname, req.time);
